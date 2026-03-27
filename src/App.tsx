@@ -10,11 +10,11 @@ import {
   Share2, 
   ThumbsUp 
 } from "lucide-react";
-import alphonsoMango from "./assets/alphonso_mango.png";
-import berryPopsicle from "./assets/berry_popsicle.png";
-import kiwiPopsicle from "./assets/kiwi_popsicle.png";
-import chocolatePopsicle from "./assets/chocolate_popsicle.png";
-import biscoffPopsicle from "./assets/biscoff_popsicle.png";
+const alphonsoMango = "/assets/alphonso_mango.png";
+const berryPopsicle = "/assets/berry_popsicle.png";
+const kiwiPopsicle = "/assets/kiwi_popsicle.png";
+const chocolatePopsicle = "/assets/chocolate_popsicle.png";
+const biscoffPopsicle = "/assets/biscoff_popsicle.png";
 
 const HERO_IMAGES = [
   alphonsoMango,
