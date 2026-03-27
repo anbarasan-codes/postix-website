@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-headline: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --color-on-background: #1c1c19;
+  --color-surface-container-low: #f6f3ee;
+  --color-on-primary-fixed-variant: #624000;
+  --color-on-primary-fixed: #291800;
+  --color-on-primary: #ffffff;
+  --color-on-tertiary-fixed-variant: #6f3800;
+  --color-on-tertiary-container: #793e00;
+  --color-on-secondary-container: #67645d;
+  --color-secondary-fixed-dim: #cbc6bd;
+  --color-surface-variant: #e5e2dd;
+  --color-on-tertiary-fixed: #2f1400;
+  --color-tertiary-container: #ffad6c;
+  --color-surface-container-highest: #e5e2dd;
+  --color-tertiary: #8e4e11;
+  --color-secondary-fixed: #e7e2d9;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-fixed-dim: #ffb780;
+  --color-surface-dim: #dcdad5;
+  --color-outline-variant: #d7c4ad;
+  --color-inverse-primary: #ffba4a;
+  --color-error-container: #ffdad6;
+  --color-tertiary-fixed: #ffdcc4;
+  --color-surface-tint: #815600;
+  --color-primary-fixed-dim: #ffba4a;
+  --color-inverse-on-surface: #f3f0eb;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-bright: #fcf9f4;
+  --color-on-secondary-fixed-variant: #494640;
+  --color-on-secondary-fixed: #1d1b16;
+  --color-error: #ba1a1a;
+  --color-secondary: #615e57;
+  --color-on-primary-container: #6b4600;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #1c1c19;
+  --color-primary-container: #ffb01d;
+  --color-background: #fcf9f4;
+  --color-secondary-container: #e7e2d9;
+  --color-surface-container-high: #ebe8e3;
+  --color-surface: #fcf9f4;
+  --color-primary: #815600;
+  --color-inverse-surface: #31302d;
+  --color-surface-container: #f0ede9;
+  --color-on-surface-variant: #524533;
+  --color-primary-fixed: #ffddb1;
+  --color-outline: #847561;
+}
+
+.glass-effect {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@layer base {
+  body {
+    @apply bg-surface font-body text-on-surface;
+  }
+}
